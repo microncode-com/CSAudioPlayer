@@ -1,7 +1,7 @@
 # CSAudioPlayer
 .NET component to play any type of audio file with a specific format.
 
-![alt CSAudioPlayer](https://wwww.microncode.com/developers/cs-audio-player/images/cs-audio-player.png "CSAudioPlayer")
+![alt CSAudioPlayer](https://www.microncode.com/developers/cs-audio-player/images/cs-audio-player.png "CSAudioPlayer")
 
 # About
 The CSAudioPlayer is a .NET component that can play many types of audio (and video) files with a specific format and with a built in audio visualization / audio meter controls and a built in ID3 tags editor.
