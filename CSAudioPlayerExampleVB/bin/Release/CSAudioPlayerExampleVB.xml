@@ -1,0 +1,124 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CSAudioPlayerExampleVB
+</name>
+</assembly>
+<members>
+<member name="T:CSAudioPlayerExampleVB.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:CSAudioPlayerExampleVB.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:CSAudioPlayerExampleVB.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:CSAudioPlayerExampleVB.frmAudioPlayer.AudioPlayer1_PlayDone(System.Object,System.EventArgs)">
+ <summary>
+ When done playing event.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CSAudioPlayerExampleVB.frmAudioPlayer.AudioPlayer1_PlayError(System.Object,CSAudioPlayer.MessageArgs)">
+ <summary>
+ On error.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CSAudioPlayerExampleVB.frmAudioPlayer.AudioPlayer1_PlayStart(System.Object,System.EventArgs)">
+ <summary>
+ When start playing event.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CSAudioPlayerExampleVB.frmAudioPlayer.cmdPlay_Click(System.Object,System.EventArgs)">
+ <summary>
+ Start to play.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CSAudioPlayerExampleVB.frmAudioPlayer.cmdOpen_Click(System.Object,System.EventArgs)">
+ <summary>
+ Open the source file and get some details about it.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CSAudioPlayerExampleVB.frmAudioPlayer.cmdPause_Click(System.Object,System.EventArgs)">
+ <summary>
+ Pause play.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CSAudioPlayerExampleVB.frmAudioPlayer.cmdResume_Click(System.Object,System.EventArgs)">
+ <summary>
+ Resume play.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CSAudioPlayerExampleVB.frmAudioPlayer.cmdStop_Click(System.Object,System.EventArgs)">
+ <summary>
+ Stop to play.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CSAudioPlayerExampleVB.frmAudioPlayer.trckPlayerPosition_MouseUp(System.Object,System.Windows.Forms.MouseEventArgs)">
+ <summary>
+ Seek the play to the slider position.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CSAudioPlayerExampleVB.frmAudioPlayer.trckPlayerPosition_MouseDown(System.Object,System.Windows.Forms.MouseEventArgs)">
+ <summary>
+ Disable the tmrPlayerPosition on mouse down.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CSAudioPlayerExampleVB.frmAudioPlayer.tmrPlayerPosition_Tick(System.Object,System.EventArgs)">
+ <summary>
+ Display the position of the playing operation.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CSAudioPlayerExampleVB.frmAudioPlayer.trckVolume_ValueChanged(System.Object,System.EventArgs)">
+ <summary>
+ Set the volume of the player.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CSAudioPlayerExampleVB.frmAudioPlayer.frmAudioPlayer_FormClosing(System.Object,System.Windows.Forms.FormClosingEventArgs)">
+ <summary>
+ Form closing event. Stop the playing process (if any) for safe exit.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CSAudioPlayerExampleVB.frmAudioPlayer.cmdCheckLicense_Click(System.Object,System.EventArgs)">
+ <summary>
+ Check the license.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+</members>
+</doc>
